@@ -1,5 +1,5 @@
 ---
-title: LeetCode 0009 Palindrome Number
+title: LeetCode 0069 Sqrt(x)
 date: 2019-02-26 15:38:05
 tags: leetcode
 ---
