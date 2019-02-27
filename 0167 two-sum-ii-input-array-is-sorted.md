@@ -37,3 +37,16 @@ tags: leetcode
  
 
 ## Solutions:
+```python
+# two pointers O(nlogn)
+class Solution:
+    def twoSum(self, numbers, target):
+        l = 0
+        h = len(numbers) - 1
+        while numbers[l] + numbers[h] != target and l < h:
+            if numbers[l] + numbers[h] > target:
+                h -= 1
+            else:
+                l += 1
+        return [l + 1, h + 1]
+```
