@@ -22,7 +22,7 @@ def generate(path, file_name):
     title = "LeetCode" + " " + number + name
     tags = "leetcode"
 
-    with open(path + "/" + file_name, "r") as f_r, open(path + "/" + write_name, "w") as f_w:
+    with open(path + "/" + file_name, "r", encoding="utf-8") as f_r, open(path + "/" + write_name, "w", encoding="utf-8") as f_w:
         f_w.write("---\n")
         f_w.write("title: %s\n" % title)
         f_w.write("date: %s\n" % write_time)
