@@ -40,6 +40,8 @@ def generate(path, file_name):
                 if line[0] == "#":
                     f_w.write(line[1::])
         f_w.write("## Solutions:\n\n")
+        f_w.write("**Python**\n")
+        f_w.write("```python\n\n```")
 
     return write_name, True
 
