@@ -45,6 +45,7 @@ tags: leetcode
 
 **Python**
 ```python
+# Lomuto
 class Solution(object):
     # partition sort
     # [0, i), [i, j), [j, N) are 0s, 1s and 2s sorted in place for [0, N)
